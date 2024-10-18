@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+header {
+    padding: 20px 10px;
+    background-color: yellow;
+    display:block;
+}
+
+
+.search_union {
+    display: flex;
+    padding: 10px 10px;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+div input {
+    height: auto;
+    border-radius: 4px;
+    width: 100%;
+    border: 1px inset ;
+    padding: 15px 40px;
+}
+
+
+div form  {  
+    display: flex;
+    padding: 10px;
+    flex-direction: row; 
+}
+
+.logo-Mercado {
+    margin: 0px;
+    display: flex;
+    width: 85%;
+    height: auto;
+    padding: 0px;
+}
+
+
+div img{
+    padding-left: 20px;
+    height: 30px;
+    width: auto;
+    
+}
+
+
+header h2{
+    font-size: 16px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.header_nav ul  {
+    padding: 0 0 10px 0 ;
+    font: 12px; 
+    display: none;
+}
+
+
+.header_nav li{
+    list-style: none;
+}
+
+.header_nav li a{
+  text-decoration: none;
+}
+
+header div i {
+    margin-left: 50%;
+    margin-right: 50%;
+ display: flex;
+
+
+}
+
+div form button {
+    display: flex;
+    height: 50px;
+    align-items: center;
+    flex-wrap: nowrap;
+    border-radius: 4px;
+    justify-content: center;
+    background-color: white;
+    margin: 0%;
+    border: 1px inset ;
+}
+
+
+.burguer-menu {
+    padding: 10px 10px;
+}
+
+#burguer {
+    color: white;
+    background-color: blue;
+    padding: 5px;
+    border-radius: 2px;
+ }
+
+#logo_burguer
+ {
+    background-size: 10vw 10vh;
+   
+ }
+
+
+ @media (min-width:768px) {
+    header {
+        padding: 10px 10px;
+        background-color: yellow;
+        display:block;
+    }
+
+    header h2 {
+       
+        font-size: 16px;
+        text-align: center;
+        font-weight: 700;
+        
+        padding-top: 55px;
+    }
+
+    .logo-Mercado {
+        margin-left: 0px;
+        display: flex;
+       
+        padding: 0px;
+    }
+
+.div_nav{
+    display: block;
+}
+
+.header_nav{
+    justify-content: space-around;
+    gap: 2rem;
+    width: 100%;
+    display: flex;
+}
+
+.header_nav ul {
+    display: flex;
+    flex-direction: row;
+    gap: inherit;
+}
+
+#burguer 
+    {
+        display:none ; 
+    }
+
+.container-art {
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    gap: 5rem;
+    
+    
+.burguer-menu {
+        padding: 0px;
+    }
+    
+    
+.burguer-menu {
+        padding: 0px;
+    }
+    
+ }
+
+
+ .search_union {
+            display: flex;
+        padding: 10px 10px;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+}
+
+div input {
+    height: auto;
+    border-radius: 4px;
+    width: 100%;
+    border: 1px inset;
+    padding: 5px 40px;
+}
+
+div form button {
+    display: flex;
+    height: 30px;
+    
+    border-radius: 4px;
+    justify-content: center;
+    background-color: white;
+    
+    border: 1px inset;
+}
+ }
+
+@media (min-width:1024px) 
+{
+
+    header {
+        padding: 10px 10px;
+        background-color: yellow;
+        display:block;
+    }
+
+    header h2 {
+        display: inline-flex;
+        font-size: 16px;
+        text-align: center;
+        font-weight: 700;
+       
+        padding-top: 55px;
+    }
+
+    .header_nav{
+    justify-content: space-around;
+    gap: 2rem;
+    width: 100%;
+    display: flex;
+}
+
+#burguer 
+    {
+        display:none ; 
+    }
+
+    .header_nav ul
+    {
+        display: flex;
+        flex-direction: row;
+        gap: inherit;
+    }
+
+    div input {
+        height: 0px;
+        border-radius: 4px;
+        width: 60%;
+        border: 1px inset;
+        padding: 12px 45px;
+    }
+
+
+
+    .search_union {
+        gap: 3rem;
+        display: inline-flex;
+        padding: 10px 17px;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+
+    
+    div form button {
+        display: flex;
+        height: 25px;
+        align-items: center;
+        /* flex-wrap: revert-layer; */
+        border-radius: 4px;
+        justify-content: center;
+        background-color: white;
+        margin: 0%;
+        border: 1px inset;
+
+        }
+
+        .logo-Mercado {
+            margin-left: 50px;
+            display: flex;
+            width: 100%;
+            height: auto;
+            padding: 10px;
+        }
+
+        div form {
+            display: flex;
+            padding-left: 70px;
+            align-items: flex-end;
+        }
+
+ }
