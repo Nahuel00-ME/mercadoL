@@ -1,0 +1,360 @@
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+h4{
+    font-size: 24px;
+    padding: 10px 10px;
+}
+h2 {
+    padding: 20px 5px;
+    text-align: center;
+    align-self: baseline;
+    margin: 0px 5px;
+    height: 30px;
+}
+
+.checkbox1 { 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.baner-img {
+    height: auto;
+    width: 100%;
+    display: none;
+}
+
+div .formulario {
+    margin-bottom: 10px;
+    padding-bottom: 45px;
+}
+
+
+div .ingreso {
+    display: flex;
+}
+.formulario {
+    background-color: #d3d0d0;
+    padding: 20px 26px;
+    margin: auto;
+    display: flex;
+        flex-direction: column;
+        
+
+}
+
+.formulario input {  
+        border: 1px groove;
+        border-radius: 5px;
+        padding: 10px 0px;
+        width: 97%;
+}
+
+.formulario label {
+    display: block;
+    padding: 10px 11px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+}
+
+input[type="checkbox" i] {
+    background-color: initial;
+    
+    box-sizing: border-box;
+    margin: 3px 3px 3px 4px;
+    }
+.formulario h4 {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 24px;
+    font-weight: bold;
+    justify-content: center
+}
+
+
+.formulario button {
+    width: 100%;
+    align-items: center;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 10px;
+    line-height: 35px;
+    font-size: 16px;
+}
+
+div form {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+     }
+
+
+.formulario.login {
+        display: flex;
+        height: auto;
+        background-color: #b10a0a;
+        padding: 0px 6px;
+        margin: 0px;
+        width: 40%;
+        flex-direction: column;
+        align-content: stretch;
+        align-items: stretch;
+    }
+
+.login-input {
+ width: 110%;
+
+}
+div .ingreso{
+    height: auto;
+    width:100%;
+    background-color: #d3d0d0;
+    padding: 0px 22px;
+    margin: 0px;
+    flex-direction: column;
+    }
+
+.botones-login {
+    height: auto;
+        width: 100%;
+        background-color: #d3d0d0;
+        padding: 0px 15px;
+        margin: 0px;
+        flex-direction: column
+}
+.botones-login button {
+    width: 100%;
+    align-items: center;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 10px;
+    line-height: 35px;
+    font-size: 16px;
+}
+@media (min-width:768px)
+{
+    main {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    
+    .baner-img {
+        display: flex;
+        height: auto;
+        width: 100%;
+    }
+    
+
+
+    div form {
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+        }
+    
+    
+
+    .formulario{
+        height: auto;
+        width: 50%;
+        background-color: #d3d0d0;
+        padding: 0px 22px;
+        margin: 0px;
+        flex-direction: column;
+        }
+    .formulario.login{
+        height: auto;
+        width: 50%;
+        background-color: #d3d0d0;
+        padding: 0px 22px;
+        margin: 0px;
+        flex-direction: column;
+        }
+    
+    .formulario input {
+        
+            border: 1px groove;
+            border-radius: 5px;
+            padding: 10px 2px;
+            width: 100%;
+        }
+        div .ingreso{
+        height: auto;
+        width: 120%;
+        background-color: #d3d0d0;
+        padding: 0px 22px;
+        margin: 0px;
+        flex-direction: column;
+        }
+    
+    .formulario.login input {
+        
+            border: 1px groove;
+            border-radius: 5px;
+            padding: 10px 2px;
+            width: 100%;
+        }
+    
+    div form button {
+        display: flex;
+                height: 40px;
+                align-items: center;
+                border-radius: 4px;
+                justify-content: center;
+                background-color: white;
+                margin: 0%;
+                border: 1px inset;
+        }
+        
+.botones-login {
+    height: auto;
+        width: 120%;
+        background-color: #d3d0d0;
+        padding: 0px 22px;
+        margin: 0px;
+        flex-direction: column
+}
+.botones-login button {
+    width: 100%;
+    align-items: center;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 10px;
+    line-height: 35px;
+    font-size: 16px;
+}
+.login-input {
+    width: 120%; }
+ }
+@media (min-width:1024px)
+{
+main {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin:0 ;
+}
+
+.baner-img {
+    display: flex;
+    height: auto;
+    width: 100%;
+}
+
+
+
+h2 {
+    padding: 20px 5%;
+    text-align: center;
+    align-self: baseline;
+    margin: 0px 5px;
+    height: 30px;
+}
+
+.formulario {
+    height: auto;
+    background-color: #d3d0d0;
+    padding: 0px 3px;
+    margin: 0px;
+    flex-direction: column;
+    width: 40%;
+} 
+
+
+
+.formulario input {
+    border: 1px groove;
+    border-radius: 5px;
+    padding: 20px 0px;
+    width: 99%;
+}
+.formulario {
+    height: auto;
+    background-color: #d3d0d0;
+    padding: 0px 3px;
+    margin: 0px;
+    flex-direction: column;
+    width: 40%;
+} 
+
+
+.formulario input {
+    border: 1px groove;
+    border-radius: 5px;
+    padding: 20px 0px;
+    width: 99%;
+}
+div .conteiner.formulario { 
+    margin-bottom: 10px;
+    padding-bottom: 45px;
+}
+
+div form {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start
+    }
+
+
+div form button {
+         display: flex;
+            height: 40px;
+            align-items: center;
+            border-radius: 4px;
+            justify-content: center;
+            background-color: white;
+            margin: 0%;
+            border: 1px inset;
+    }
+
+.login-input{
+   
+        height: 1px;
+        border-radius: 4px;
+        width: 100%;
+        border: 1px inset;
+        padding: 14px 50px;
+}
+
+.botones-login {
+    height: auto;
+        width: 120%;
+        background-color: #d3d0d0;
+        padding: 0px 22px;
+        margin: 0px;
+        flex-direction: column
+}
+.botones-login button {
+    width: 100%;
+    align-items: center;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 10px;
+    line-height: 35px;
+    font-size: 16px;
+}
+  }

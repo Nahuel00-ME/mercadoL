@@ -20,6 +20,7 @@ h2 {
 
 
 article {
+    position: relative;
     margin: 15px 15px;
     box-shadow: 0px 0px 10px rgb(34, 34, 34);
 }
@@ -28,9 +29,8 @@ article {
     width: 100%;
     display: none;
 }
-article div {
-    border: 1px solid #ebebeb;
-}
+
+
 article img {
     height: 90%;
     width: 90%;
@@ -48,11 +48,20 @@ article ul li {
     padding: 2px 0px;
 }
 
+.precio{
+    padding: 20px 20px 0px 20px;
+   
+    font-size: 25px;
+
+}
 .green {
-    color:rgb(6, 187, 6);
+    
+        padding: 20px 20px 0 5px;
+        font-size: 21px;
+        color: rgb(6, 187, 6);
 }
 article div h3 {
-    display: none;
+    
     padding: 15px 0px;
 }
 article div .fa-truck {
@@ -65,20 +74,21 @@ article div .fa-truck {
 .container-art img {
     padding: 0;
 }
- /*-------------------------aca arranca el tp5  ----------------*/
 
- .caja-art {
+.caja-art {
     display: flex;
-    padding-bottom: 30px;
+    padding-bottom: 5px;
 }
 
 .camiones {
-    border: none;
-    display: flex;
-    align-items: flex-end;
-    padding-right: 20px;
-    flex-direction: column;
-}
+        width: 27px;
+        padding: 3px;
+        position: absolute;
+        bottom: 95px;
+        right: 20px;
+    
+    }
+
 
 .fa-regular, .far {
     font-size: 40px;
@@ -87,7 +97,7 @@ article div .fa-truck {
     font-weight: 400;
     flex-direction: column;
 }
- /* -------------------parte del tp 6-------------*/
+/* -------------------parte del tp 6-------------*/
 
 
 div .formulario {
@@ -96,10 +106,11 @@ div .formulario {
 }
 
 .formulario {
-    background-color: #ebebeb;
+    background-color: #d3d0d0;
     padding: 20px 26px;
     margin: auto;
-  
+    display: flex;
+
 }
 
 .formulario input {
@@ -147,10 +158,18 @@ input[type="checkbox" i] {
     font-size: 16px;
 }
 
+.descripcion {
+ padding-left: 21px;
+    
+    display: flex;
+}
 
-/*  ----------------------- parte 2 del tp 5----------------------------*/
+.conteiner-descripciones{
+    border: 1px solid #ebebeb;
+    
+}
 
-@media (min-width:768px){
+@media (min-width:767px){
     main {
         display: flex;
         flex-direction: column;
@@ -159,13 +178,13 @@ input[type="checkbox" i] {
         align-items: center;
     }
     .container-art {
-        display: flex;
-        margin: auto;
-        flex-wrap: wrap;
-        gap: 3rem;
-        margin-left: 10%;
-        
-    }
+       
+            display: flex;
+            margin: 0px;
+            flex-wrap: wrap;
+            gap: 2rem;
+            margin-left: 5%;
+        }
     
     .baner-img {
         display: flex;
@@ -186,17 +205,13 @@ input[type="checkbox" i] {
         flex-grow: 1;
         
     }
-    article div {
-        border: 1px solid #ebebeb;
-        padding: 15px;
-    }
-    article div h3 {
-        display: flex;
-        padding: 15px 0px;
-    }
     
-}
-@media (min-width:1024){
+   
+    
+    
+    }
+
+@media (min-width:1023px){
 main {
     display: flex;
     flex-direction: column;
@@ -213,13 +228,15 @@ main {
 }
 
 
-    .container-art {
-        display: flex;
-        margin: 0;
-        gap: 1rem;
-        flex-wrap: wrap;
-        
+.container-art {
+    display: flex;
+    margin-left: 14%;
+    margin-right: 6%;
+    gap: 3rem;
+    flex-wrap: nowrap;
+    flex-direction: row;
     }
+    
     
     article {
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
@@ -232,9 +249,8 @@ main {
         flex-grow: 1;
    
 }
-article div {
-    border: 1px solid #ebebeb;
-    padding: 15px;
+
+
 }
 article div h3 {
    display: flex;
@@ -250,4 +266,11 @@ h2 {
 }
 
 
+
+
+main article:hover 
+{
+    box-shadow: 10px 5px 5px rgb(179, 21, 21);
 }
+
+
